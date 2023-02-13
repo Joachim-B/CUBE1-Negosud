@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Database"
   ],
-  "SelectedNode": "\\C:\\Users\\Utilisateur\\Source\\Repos\\CUBE1-Negosud",
+  "SelectedNode": "\\Database\\negosud_database.sql",
   "PreviewInSolutionExplorer": false
 }

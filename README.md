@@ -6,7 +6,7 @@ Les livrables attendus pour le CUBE 1, avec un guide d'installation fourni.
 
 ### Prérequis
 - Environnement MySQL (MySQL Server, MySQL Workbench) - [Installer MySQL Community](https://dev.mysql.com/downloads/installer/)
-- Visual Studio (pour lancer l'API en Debug) - [Installer Visual Studio 2022](https://visualstudio.microsoft.com/fr/downloads/)
+- Visual Studio pouvant exécuter des projets ASP.NET (pour lancer l'API en Debug) - [Installer Visual Studio 2022](https://visualstudio.microsoft.com/fr/downloads/)
 - XAMPP (pour lancer le site web) - [Installer XAMPP](https://www.apachefriends.org/download.html)
 
 ### Récupérer la base de données

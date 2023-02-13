@@ -58,7 +58,7 @@ CREATE TABLE `article` (
 
 LOCK TABLES `article` WRITE;
 /*!40000 ALTER TABLE `article` DISABLE KEYS */;
-INSERT INTO `article` VALUES (1,'TAR_FT01_2021','Classic',2021,8.00,40.00,25.50,20.00,'Chaque gorgée dégustée est une véritable explosion de fruits (d\'agrumes), accompagnée d\'une agréable fraîcheur qui fera appel à une nouvelle gorgée. Le conseil de nos sommeliers : avoir toujours une bouteille au frais... au cas où !','http://www.tariquet.com/images-vins/produits/normal/ugniblanc-g.jpg',-50,0,78,4,10,50,6,1,2);
+INSERT INTO `article` VALUES (1,'TAR_FT01_2021','Classic',2021,8.00,40.00,25.50,20.00,'Chaque gorgée dégustée est une véritable explosion de fruits (d\'agrumes), accompagnée d\'une agréable fraîcheur qui fera appel à une nouvelle gorgée. Le conseil de nos sommeliers : avoir toujours une bouteille au frais... au cas où !','http://www.tariquet.com/images-vins/produits/normal/ugniblanc-g.jpg',20,0,20,0,10,50,6,1,2);
 /*!40000 ALTER TABLE `article` ENABLE KEYS */;
 UNLOCK TABLES;
 
