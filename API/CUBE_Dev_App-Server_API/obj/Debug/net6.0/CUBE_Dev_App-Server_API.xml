@@ -1,0 +1,445 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CUBE_Dev_App-Server_API</name>
+    </assembly>
+    <members>
+        <member name="T:CUBE_Dev_App_Server_API.Controllers.ArticleController">
+            <summary>
+            Every requests related to articles
+            </summary>
+        </member>
+        <member name="M:CUBE_Dev_App_Server_API.Controllers.ArticleController.GetAll">
+            <summary>
+            Gets the list of every articles
+            </summary>
+        </member>
+        <member name="M:CUBE_Dev_App_Server_API.Controllers.ArticleController.Get(System.Int32)">
+            <summary>
+            Gets the data of a specified article
+            </summary>
+        </member>
+        <member name="M:CUBE_Dev_App_Server_API.Controllers.ArticleController.GetWineFamilies(System.Int32)">
+            <summary>
+            Gets the list of every articles from the specified wine family 
+            </summary>
+        </member>
+        <member name="M:CUBE_Dev_App_Server_API.Controllers.ArticleController.GetSuppliers(System.Int32)">
+            <summary>
+            Gets the list of every articles from the specified supplier 
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CUBE_Dev_App_Server_API.Controllers.ArticleController.Create(CUBE_Dev_App_Server_API.Models.Article)">
+            <summary>
+            Creates a new article in the database
+            </summary>
+            <remarks>
+            Sample request :
+            
+                POST
+                {
+                      "reference": "string",
+                      "name": "string",
+                      "wineYear": 0,
+                      "boxStockQuantity": 0,
+                      "unitStockQuantity": 0,
+                      "boxMinQuantity": 0,
+                      "boxOptimalQuantity": 0,
+                      "boxBuyingPrice": 0,
+                      "unitPriceTTC": 0,
+                      "boxPriceTTC": 0,
+                      "tva": 0,
+                      "bottleQuantityPerBox": 0,
+                      "description": "string",
+                      "imageLink": "string",
+                      "idSupplier": 1,
+                      "idWineFamily": 3
+                }
+            </remarks>
+        </member>
+        <member name="M:CUBE_Dev_App_Server_API.Controllers.ArticleController.Update(System.Int32,CUBE_Dev_App_Server_API.Models.Article)">
+            <summary>
+            Updates a specified article
+            </summary>
+            <remarks>
+            Sample request :
+            
+                PUT
+                int id,
+                {
+                      "idArticle": 0,
+                      "reference": "string",
+                      "name": "string",
+                      "wineYear": 0,
+                      "boxStockQuantity": 0,
+                      "unitStockQuantity": 0,
+                      "boxVirtualQuantity": 0,
+                      "unitVirtualQuantity": 0,
+                      "boxMinQuantity": 0,
+                      "boxOptimalQuantity": 0,
+                      "boxBuyingPrice": 0,
+                      "unitPriceTTC": 0,
+                      "boxPriceTTC": 0,
+                      "tva": 0,
+                      "bottleQuantityPerBox": 0,
+                      "description": "string",
+                      "imageLink": "string",
+                      "idSupplier": 1,
+                      "idWineFamily": 3
+                }
+            </remarks>
+        </member>
+        <member name="T:CUBE_Dev_App_Server_API.Controllers.ClientCommandController">
+            <summary>
+            Every requests related to client commands
+            </summary>
+        </member>
+        <member name="M:CUBE_Dev_App_Server_API.Controllers.ClientCommandController.GetAll">
+            <summary>
+            Gets the lists of every client command header
+            </summary>
+        </member>
+        <member name="M:CUBE_Dev_App_Server_API.Controllers.ClientCommandController.Get(System.Int32)">
+            <summary>
+            Gets the data of a specified client command
+            </summary>
+        </member>
+        <member name="M:CUBE_Dev_App_Server_API.Controllers.ClientCommandController.Create(CUBE_Dev_App_Server_API.Models.ClientCommand)">
+             <summary>
+             Creates a new client command in the database
+             </summary>
+             <remarks>
+             Sample request :
+            
+                 POST
+                 ClientCommand
+                 {
+                     "commandDate": "2023-02-13T09:13:18.590Z",
+                     "idClient": 1,
+                     "idCommandStatus": 2,
+                     "clientCommandsList": [
+                         {
+                             "idArticle": 1,
+                             "quantity": 10,
+                             "idQuantityType": 1
+                         }
+                     ]
+                 }
+             </remarks>
+        </member>
+        <member name="M:CUBE_Dev_App_Server_API.Controllers.ClientCommandController.Close(System.Int32)">
+            <summary>
+            Closes the specified client command
+            </summary>
+        </member>
+        <member name="M:CUBE_Dev_App_Server_API.Controllers.ClientCommandController.Cancel(System.Int32)">
+            <summary>
+            Cancels the specified client command
+            </summary>
+        </member>
+        <member name="T:CUBE_Dev_App_Server_API.Controllers.ClientController">
+            <summary>
+            Every requests related to clients
+            </summary>
+        </member>
+        <member name="M:CUBE_Dev_App_Server_API.Controllers.ClientController.GetAll">
+            <summary>
+            Gets the list of every clients
+            </summary>
+        </member>
+        <member name="M:CUBE_Dev_App_Server_API.Controllers.ClientController.Get(System.Int32)">
+            <summary>
+            Gets the data of a specified client
+            </summary>
+        </member>
+        <member name="M:CUBE_Dev_App_Server_API.Controllers.ClientController.Create(CUBE_Dev_App_Server_API.Models.Client)">
+             <summary>
+             Creates a new client in the database
+             </summary>
+             <remarks>
+             Sample request :
+            
+                 POST
+                 {
+                     "firstname": "string",
+                     "lastname": "string",
+                     "email": "string",
+                     "address": "string",
+                     "town": "string",
+                     "postalCode": "string",
+                     "country": "string",
+                     "password": "string"
+                 }
+             </remarks>
+        </member>
+        <member name="M:CUBE_Dev_App_Server_API.Controllers.ClientController.Update(System.Int32,System.String,CUBE_Dev_App_Server_API.Models.Client)">
+             <summary>
+             Updates a specified client
+             </summary>
+             <remarks>
+            
+                 PUT
+                 int id,
+                 string password,
+                 {
+                     "idClient": 0,
+                     "firstname": "string",
+                     "lastname": "string",
+                     "email": "string",
+                     "address": "string",
+                     "town": "string",
+                     "postalCode": "string",
+                     "country": "string",
+                     "password": "string"
+                 }
+             </remarks>
+        </member>
+        <member name="T:CUBE_Dev_App_Server_API.Controllers.ConnectionController">
+            <summary>
+            Every requests related to connection to a client account or to the heavy client
+            </summary>
+        </member>
+        <member name="M:CUBE_Dev_App_Server_API.Controllers.ConnectionController.TryLoginHC(System.String,System.String)">
+            <summary>
+            Compares the incoming values with the username and password stored in the database
+            </summary>
+        </member>
+        <member name="M:CUBE_Dev_App_Server_API.Controllers.ConnectionController.Change(System.String,System.String,System.String,System.String)">
+            <summary>
+            Changes the heavy client's username and password stored in the database with new ones if the incoming values are correct
+            </summary>
+        </member>
+        <member name="M:CUBE_Dev_App_Server_API.Controllers.ConnectionController.TryLoginWS(System.Int32,System.String)">
+            <summary>
+            Compares the incoming values with the id and password of a specified client
+            </summary>
+        </member>
+        <member name="T:CUBE_Dev_App_Server_API.Controllers.SupplierCommandController">
+            <summary>
+            Every requests related to supplier commands
+            </summary>
+        </member>
+        <member name="M:CUBE_Dev_App_Server_API.Controllers.SupplierCommandController.GetAllHeaders">
+            <summary>
+            Gets the lists of every supplier command header
+            </summary>
+        </member>
+        <member name="M:CUBE_Dev_App_Server_API.Controllers.SupplierCommandController.Get(System.Int32)">
+            <summary>
+            Gets the data of a specified supplier command
+            </summary>
+        </member>
+        <member name="M:CUBE_Dev_App_Server_API.Controllers.SupplierCommandController.Create(CUBE_Dev_App_Server_API.Models.SupplierCommand)">
+             <summary>
+             Creates a new supplier command in the database
+             </summary>
+             <remarks>
+             Sample request :
+            
+                 POST
+                 SupplierCommand
+                 {
+                     "commandDate": "2023-02-13T09:13:18.590Z",
+                     "idSupplier": 1,
+                     "idCommandStatus": 2,
+                     "supplierCommandList": [
+                         {
+                             "idArticle": 1,
+                             "quantity": 10,
+                             "idQuantityType": 1
+                         }
+                     ]
+                 }
+             </remarks>
+        </member>
+        <member name="M:CUBE_Dev_App_Server_API.Controllers.SupplierCommandController.Close(System.Int32)">
+            <summary>
+            Closes the specified supplier command
+            </summary>
+        </member>
+        <member name="M:CUBE_Dev_App_Server_API.Controllers.SupplierCommandController.Cancel(System.Int32)">
+            <summary>
+            Cancels the specified supplier command
+            </summary>
+        </member>
+        <member name="T:CUBE_Dev_App_Server_API.Controllers.SupplierController">
+            <summary>
+            Every requests related to suppliers
+            </summary>
+        </member>
+        <member name="M:CUBE_Dev_App_Server_API.Controllers.SupplierController.GetAll">
+            <summary>
+            Gets the list of every suppliers
+            </summary>
+        </member>
+        <member name="M:CUBE_Dev_App_Server_API.Controllers.SupplierController.Get(System.Int32)">
+            <summary>
+            Gets the data of a specified supplier
+            </summary>
+        </member>
+        <member name="M:CUBE_Dev_App_Server_API.Controllers.SupplierController.GetNames">
+            <summary>
+            Gets the list of every supplier names, and their IDs
+            </summary>
+        </member>
+        <member name="M:CUBE_Dev_App_Server_API.Controllers.SupplierController.Create(CUBE_Dev_App_Server_API.Models.Supplier)">
+             <summary>
+             Creates a new supplier in the database
+             </summary>
+             <remarks>
+             Sample request :
+            
+                 POST
+                 {
+                     "name": "string",
+                     "email": "string",
+                     "address": "string",
+                     "town": "string",
+                     "postalCode": "string",
+                     "country": "string",
+                 }
+             </remarks>
+        </member>
+        <member name="M:CUBE_Dev_App_Server_API.Controllers.SupplierController.Update(System.Int32,CUBE_Dev_App_Server_API.Models.Supplier)">
+             <summary>
+             Updates a specified supplier
+             </summary>
+             <remarks>
+             Sample request :
+            
+                 PUT
+                 int id,
+                 {
+                     "idSupplier", 0,
+                     "name": "string",
+                     "email": "string",
+                     "address": "string",
+                     "town": "string",
+                     "postalCode": "string",
+                     "country": "string",
+                 }
+             </remarks>
+        </member>
+        <member name="T:CUBE_Dev_App_Server_API.Controllers.UtilsController">
+            <summary>
+            Every requests related to unique data ot the database
+            </summary>
+        </member>
+        <member name="M:CUBE_Dev_App_Server_API.Controllers.UtilsController.TryLogin">
+            <summary>
+            Gets the default margin
+            </summary>
+        </member>
+        <member name="M:CUBE_Dev_App_Server_API.Controllers.UtilsController.Change">
+            <summary>
+            Gets the default TVA
+            </summary>
+        </member>
+        <member name="M:CUBE_Dev_App_Server_API.Controllers.UtilsController.ChangeMargin(System.Decimal)">
+            <summary>
+            Modify the value of the default margin
+            </summary>
+        </member>
+        <member name="M:CUBE_Dev_App_Server_API.Controllers.UtilsController.ChangeTVA(System.Decimal)">
+            <summary>
+            Modify the value of the default TVA
+            </summary>
+        </member>
+        <member name="T:CUBE_Dev_App_Server_API.Controllers.WineFamilyController">
+            <summary>
+            Every requests related to wine families
+            </summary>
+        </member>
+        <member name="M:CUBE_Dev_App_Server_API.Controllers.WineFamilyController.GetAll">
+            <summary>
+            Gets the list of every wine families
+            </summary>
+        </member>
+        <member name="M:CUBE_Dev_App_Server_API.Controllers.WineFamilyController.Get(System.Int32)">
+            <summary>
+            Gets the data of a specified wine family
+            </summary>
+        </member>
+        <member name="M:CUBE_Dev_App_Server_API.Controllers.WineFamilyController.Create(CUBE_Dev_App_Server_API.Models.WineFamily)">
+             <summary>
+             Creates a new wine family in the database
+             </summary>
+             <remarks>
+             Sample request :
+            
+                 POST
+                 {
+                     "name": "string"
+                 }
+             </remarks>
+        </member>
+        <member name="M:CUBE_Dev_App_Server_API.Controllers.WineFamilyController.Update(System.Int32,CUBE_Dev_App_Server_API.Models.WineFamily)">
+             <summary>
+             Updates a specified wine family
+             </summary>
+             <remarks>
+             Sample request :
+            
+                 PUT
+                 int id,
+                 {
+                     "idWineFamily": 0,
+                     "name": "string"
+                 }
+             </remarks>
+        </member>
+        <member name="M:CUBE_Dev_App_Server_API.Controllers.WineFamilyController.Delete(System.Int32)">
+            <summary>
+            Deletes a specified wine family from the database
+            </summary>
+        </member>
+        <member name="M:CUBE_Dev_App_Server_API.DBConnection.Open">
+            <summary>
+            Opens connection to database
+            </summary>
+            <returns>true if success, otherwise false</returns>
+        </member>
+        <member name="M:CUBE_Dev_App_Server_API.DBConnection.Close">
+            <summary>
+            Closes connection to database
+            </summary>
+        </member>
+        <member name="M:CUBE_Dev_App_Server_API.DBConnection.ExecuteReader(System.String)">
+            <summary>
+            Execute the "Select" query in the database
+            </summary>
+            <param name="sql"></param>
+            <returns>The query result as a MySqlDataReader</returns>
+        </member>
+        <member name="M:CUBE_Dev_App_Server_API.DBConnection.ExecuteCommandToDB(MySql.Data.MySqlClient.MySqlCommand)">
+            <summary>
+            Execute the SQL command in the database
+            </summary>
+            <param name="mySqlCommand"></param>
+            <returns>True if the command was successful, otherwise false.</returns>
+        </member>
+        <member name="M:CUBE_Dev_App_Server_API.DBConnection.GetHighestPrimaryKey(System.String)">
+            <summary>
+            Gets the highest primary key of a table
+            </summary>
+            <param name="tableName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CUBE_Dev_App_Server_API.DBConnection.GetHighestPrimaryKey(System.String,System.String)">
+            <summary>
+            Gets the highest primary key of a tableName
+            </summary>
+            <param name="tableName"></param>
+            <param name="idField"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CUBE_Dev_App_Server_API.DBSettings.GetJsonFileData">
+            <summary>
+            Lecture des informations du fichier dbsettings.json pour les mettre dans l'objet
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

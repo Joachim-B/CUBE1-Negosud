@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "sf7gAYXaosgIMLMfa3D4f4GquCkarvOVdlaVZdDwsRE=",
+  "Source": "CUBE_Dev_App-Server_API",
+  "BasePath": "_content/CUBE_Dev_App-Server_API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

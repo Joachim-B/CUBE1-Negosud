@@ -1,0 +1,41 @@
+/* Formulaire */
+
+.form-control-sm{
+	border: 1px solid #C7C7C7;
+	padding: 7px 40px 7px 40px;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+.form-only {	
+	margin-top: 10px;
+	margin-bottom: 40px;
+	padding: 7px 100px 7px 40px;
+}
+
+.input_espace {
+	margin-right: 500px;
+}
+
+.input_margin {
+	margin-right: 70px;
+}
+
+.flex-fill {
+	font-family: 'Crimson', sans-serif!important;
+	font-weight: 600;
+	font-size: 0.9rem;
+}
+
+.bouton_radio {
+	display: flex!important;
+	flex-direction: row!important;
+	gap: 50px;
+	margin-bottom: 20px;
+}
+
+/* Image */ 
+
+.image_formulaire {
+	height: 400px;
+}

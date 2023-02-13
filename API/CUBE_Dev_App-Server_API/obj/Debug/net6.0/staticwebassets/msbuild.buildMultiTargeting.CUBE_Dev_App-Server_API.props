@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CUBE_Dev_App-Server_API.props" />
+</Project>

@@ -1,0 +1,76 @@
+D:\Documents\CESI\CUBE1\CUBE_Dev_App-Heavy_Client\Gestion stock\bin\Debug\net6.0-windows\Gestion stock.exe
+D:\Documents\CESI\CUBE1\CUBE_Dev_App-Heavy_Client\Gestion stock\bin\Debug\net6.0-windows\Gestion stock.deps.json
+D:\Documents\CESI\CUBE1\CUBE_Dev_App-Heavy_Client\Gestion stock\bin\Debug\net6.0-windows\Gestion stock.runtimeconfig.json
+D:\Documents\CESI\CUBE1\CUBE_Dev_App-Heavy_Client\Gestion stock\bin\Debug\net6.0-windows\Gestion stock.dll
+D:\Documents\CESI\CUBE1\CUBE_Dev_App-Heavy_Client\Gestion stock\bin\Debug\net6.0-windows\Gestion stock.pdb
+D:\Documents\CESI\CUBE1\CUBE_Dev_App-Heavy_Client\Gestion stock\obj\Debug\net6.0-windows\Gestion stock.csproj.AssemblyReference.cache
+D:\Documents\CESI\CUBE1\CUBE_Dev_App-Heavy_Client\Gestion stock\obj\Debug\net6.0-windows\Gestion_stock.Forms.FormIndividual.ArticleIndiv.resources
+D:\Documents\CESI\CUBE1\CUBE_Dev_App-Heavy_Client\Gestion stock\obj\Debug\net6.0-windows\Gestion_stock.Forms.FormIndividual.ClientIndiv.resources
+D:\Documents\CESI\CUBE1\CUBE_Dev_App-Heavy_Client\Gestion stock\obj\Debug\net6.0-windows\Gestion_stock.Forms.FormIndividual.CommandeClientIndiv.resources
+D:\Documents\CESI\CUBE1\CUBE_Dev_App-Heavy_Client\Gestion stock\obj\Debug\net6.0-windows\Gestion_stock.Forms.FormIndividual.CommandeFournisseurIndiv.resources
+D:\Documents\CESI\CUBE1\CUBE_Dev_App-Heavy_Client\Gestion stock\obj\Debug\net6.0-windows\Gestion_stock.Forms.FormIndividual.FournisseurIndiv.resources
+D:\Documents\CESI\CUBE1\CUBE_Dev_App-Heavy_Client\Gestion stock\obj\Debug\net6.0-windows\Gestion_stock.Forms.FormLists.Articles.resources
+D:\Documents\CESI\CUBE1\CUBE_Dev_App-Heavy_Client\Gestion stock\obj\Debug\net6.0-windows\Gestion_stock.Forms.FormLists.Clients.resources
+D:\Documents\CESI\CUBE1\CUBE_Dev_App-Heavy_Client\Gestion stock\obj\Debug\net6.0-windows\Gestion_stock.Forms.FormLists.CommandesClient.resources
+D:\Documents\CESI\CUBE1\CUBE_Dev_App-Heavy_Client\Gestion stock\obj\Debug\net6.0-windows\Gestion_stock.Forms.FormLists.CommandesFournisseur.resources
+D:\Documents\CESI\CUBE1\CUBE_Dev_App-Heavy_Client\Gestion stock\obj\Debug\net6.0-windows\Gestion_stock.Forms.FormLists.FamillesDeVin.resources
+D:\Documents\CESI\CUBE1\CUBE_Dev_App-Heavy_Client\Gestion stock\obj\Debug\net6.0-windows\Gestion_stock.Forms.FormLists.Fournisseurs.resources
+D:\Documents\CESI\CUBE1\CUBE_Dev_App-Heavy_Client\Gestion stock\obj\Debug\net6.0-windows\Gestion_stock.Forms.FormLists.Model.DefaultForm.resources
+D:\Documents\CESI\CUBE1\CUBE_Dev_App-Heavy_Client\Gestion stock\obj\Debug\net6.0-windows\Gestion_stock.Forms.FormNewItem.NewArticle.resources
+D:\Documents\CESI\CUBE1\CUBE_Dev_App-Heavy_Client\Gestion stock\obj\Debug\net6.0-windows\Gestion_stock.Forms.FormNewItem.NewCommandeFournisseur.resources
+D:\Documents\CESI\CUBE1\CUBE_Dev_App-Heavy_Client\Gestion stock\obj\Debug\net6.0-windows\Gestion_stock.Forms.FormNewItem.NewFamilleDeVin.resources
+D:\Documents\CESI\CUBE1\CUBE_Dev_App-Heavy_Client\Gestion stock\obj\Debug\net6.0-windows\Gestion_stock.Forms.FormNewItem.NewFournisseur.resources
+D:\Documents\CESI\CUBE1\CUBE_Dev_App-Heavy_Client\Gestion stock\obj\Debug\net6.0-windows\Gestion_stock.Forms.FormOthers.Parametres.resources
+D:\Documents\CESI\CUBE1\CUBE_Dev_App-Heavy_Client\Gestion stock\obj\Debug\net6.0-windows\Gestion_stock.MainForm.APIUrl.resources
+D:\Documents\CESI\CUBE1\CUBE_Dev_App-Heavy_Client\Gestion stock\obj\Debug\net6.0-windows\Gestion_stock.MainForm.Login.resources
+D:\Documents\CESI\CUBE1\CUBE_Dev_App-Heavy_Client\Gestion stock\obj\Debug\net6.0-windows\Gestion_stock.NegoSUD.resources
+D:\Documents\CESI\CUBE1\CUBE_Dev_App-Heavy_Client\Gestion stock\obj\Debug\net6.0-windows\Gestion_stock.NegosudData.Interfaces.IPageNegosud.resources
+D:\Documents\CESI\CUBE1\CUBE_Dev_App-Heavy_Client\Gestion stock\obj\Debug\net6.0-windows\Gestion_stock.Properties.Resources.resources
+D:\Documents\CESI\CUBE1\CUBE_Dev_App-Heavy_Client\Gestion stock\obj\Debug\net6.0-windows\Gestion stock.csproj.GenerateResource.cache
+D:\Documents\CESI\CUBE1\CUBE_Dev_App-Heavy_Client\Gestion stock\obj\Debug\net6.0-windows\Gestion stock.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\CESI\CUBE1\CUBE_Dev_App-Heavy_Client\Gestion stock\obj\Debug\net6.0-windows\Gestion stock.AssemblyInfoInputs.cache
+D:\Documents\CESI\CUBE1\CUBE_Dev_App-Heavy_Client\Gestion stock\obj\Debug\net6.0-windows\Gestion stock.AssemblyInfo.cs
+D:\Documents\CESI\CUBE1\CUBE_Dev_App-Heavy_Client\Gestion stock\obj\Debug\net6.0-windows\Gestion stock.csproj.CoreCompileInputs.cache
+D:\Documents\CESI\CUBE1\CUBE_Dev_App-Heavy_Client\Gestion stock\obj\Debug\net6.0-windows\Gestion stock.dll
+D:\Documents\CESI\CUBE1\CUBE_Dev_App-Heavy_Client\Gestion stock\obj\Debug\net6.0-windows\refint\Gestion stock.dll
+D:\Documents\CESI\CUBE1\CUBE_Dev_App-Heavy_Client\Gestion stock\obj\Debug\net6.0-windows\Gestion stock.pdb
+D:\Documents\CESI\CUBE1\CUBE_Dev_App-Heavy_Client\Gestion stock\obj\Debug\net6.0-windows\Gestion stock.genruntimeconfig.cache
+D:\Documents\CESI\CUBE1\CUBE_Dev_App-Heavy_Client\Gestion stock\obj\Debug\net6.0-windows\ref\Gestion stock.dll
+D:\Documents\CESI\CUBE1\CUBE1-Negosud\Heavy client\Gestion stock\obj\Debug\net6.0-windows\Gestion stock.csproj.AssemblyReference.cache
+D:\Documents\CESI\CUBE1\CUBE1-Negosud\Heavy client\Gestion stock\obj\Debug\net6.0-windows\Gestion_stock.Forms.FormIndividual.ArticleIndiv.resources
+D:\Documents\CESI\CUBE1\CUBE1-Negosud\Heavy client\Gestion stock\obj\Debug\net6.0-windows\Gestion_stock.Forms.FormIndividual.ClientIndiv.resources
+D:\Documents\CESI\CUBE1\CUBE1-Negosud\Heavy client\Gestion stock\obj\Debug\net6.0-windows\Gestion_stock.Forms.FormIndividual.CommandeClientIndiv.resources
+D:\Documents\CESI\CUBE1\CUBE1-Negosud\Heavy client\Gestion stock\obj\Debug\net6.0-windows\Gestion_stock.Forms.FormIndividual.CommandeFournisseurIndiv.resources
+D:\Documents\CESI\CUBE1\CUBE1-Negosud\Heavy client\Gestion stock\obj\Debug\net6.0-windows\Gestion_stock.Forms.FormIndividual.FournisseurIndiv.resources
+D:\Documents\CESI\CUBE1\CUBE1-Negosud\Heavy client\Gestion stock\obj\Debug\net6.0-windows\Gestion_stock.Forms.FormLists.Articles.resources
+D:\Documents\CESI\CUBE1\CUBE1-Negosud\Heavy client\Gestion stock\obj\Debug\net6.0-windows\Gestion_stock.Forms.FormLists.Clients.resources
+D:\Documents\CESI\CUBE1\CUBE1-Negosud\Heavy client\Gestion stock\obj\Debug\net6.0-windows\Gestion_stock.Forms.FormLists.CommandesClient.resources
+D:\Documents\CESI\CUBE1\CUBE1-Negosud\Heavy client\Gestion stock\obj\Debug\net6.0-windows\Gestion_stock.Forms.FormLists.CommandesFournisseur.resources
+D:\Documents\CESI\CUBE1\CUBE1-Negosud\Heavy client\Gestion stock\obj\Debug\net6.0-windows\Gestion_stock.Forms.FormLists.FamillesDeVin.resources
+D:\Documents\CESI\CUBE1\CUBE1-Negosud\Heavy client\Gestion stock\obj\Debug\net6.0-windows\Gestion_stock.Forms.FormLists.Fournisseurs.resources
+D:\Documents\CESI\CUBE1\CUBE1-Negosud\Heavy client\Gestion stock\obj\Debug\net6.0-windows\Gestion_stock.Forms.FormLists.Model.DefaultForm.resources
+D:\Documents\CESI\CUBE1\CUBE1-Negosud\Heavy client\Gestion stock\obj\Debug\net6.0-windows\Gestion_stock.Forms.FormNewItem.NewArticle.resources
+D:\Documents\CESI\CUBE1\CUBE1-Negosud\Heavy client\Gestion stock\obj\Debug\net6.0-windows\Gestion_stock.Forms.FormNewItem.NewCommandeFournisseur.resources
+D:\Documents\CESI\CUBE1\CUBE1-Negosud\Heavy client\Gestion stock\obj\Debug\net6.0-windows\Gestion_stock.Forms.FormNewItem.NewFamilleDeVin.resources
+D:\Documents\CESI\CUBE1\CUBE1-Negosud\Heavy client\Gestion stock\obj\Debug\net6.0-windows\Gestion_stock.Forms.FormNewItem.NewFournisseur.resources
+D:\Documents\CESI\CUBE1\CUBE1-Negosud\Heavy client\Gestion stock\obj\Debug\net6.0-windows\Gestion_stock.Forms.FormOthers.Parametres.resources
+D:\Documents\CESI\CUBE1\CUBE1-Negosud\Heavy client\Gestion stock\obj\Debug\net6.0-windows\Gestion_stock.MainForm.APIUrl.resources
+D:\Documents\CESI\CUBE1\CUBE1-Negosud\Heavy client\Gestion stock\obj\Debug\net6.0-windows\Gestion_stock.MainForm.Login.resources
+D:\Documents\CESI\CUBE1\CUBE1-Negosud\Heavy client\Gestion stock\obj\Debug\net6.0-windows\Gestion_stock.NegoSUD.resources
+D:\Documents\CESI\CUBE1\CUBE1-Negosud\Heavy client\Gestion stock\obj\Debug\net6.0-windows\Gestion_stock.NegosudData.Interfaces.IPageNegosud.resources
+D:\Documents\CESI\CUBE1\CUBE1-Negosud\Heavy client\Gestion stock\obj\Debug\net6.0-windows\Gestion_stock.Properties.Resources.resources
+D:\Documents\CESI\CUBE1\CUBE1-Negosud\Heavy client\Gestion stock\obj\Debug\net6.0-windows\Gestion stock.csproj.GenerateResource.cache
+D:\Documents\CESI\CUBE1\CUBE1-Negosud\Heavy client\Gestion stock\obj\Debug\net6.0-windows\Gestion stock.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\CESI\CUBE1\CUBE1-Negosud\Heavy client\Gestion stock\obj\Debug\net6.0-windows\Gestion stock.AssemblyInfoInputs.cache
+D:\Documents\CESI\CUBE1\CUBE1-Negosud\Heavy client\Gestion stock\obj\Debug\net6.0-windows\Gestion stock.AssemblyInfo.cs
+D:\Documents\CESI\CUBE1\CUBE1-Negosud\Heavy client\Gestion stock\obj\Debug\net6.0-windows\Gestion stock.csproj.CoreCompileInputs.cache
+D:\Documents\CESI\CUBE1\CUBE1-Negosud\Heavy client\Gestion stock\obj\Debug\net6.0-windows\Gestion stock.dll
+D:\Documents\CESI\CUBE1\CUBE1-Negosud\Heavy client\Gestion stock\obj\Debug\net6.0-windows\refint\Gestion stock.dll
+D:\Documents\CESI\CUBE1\CUBE1-Negosud\Heavy client\Gestion stock\obj\Debug\net6.0-windows\Gestion stock.pdb
+D:\Documents\CESI\CUBE1\CUBE1-Negosud\Heavy client\Gestion stock\bin\Debug\net6.0-windows\Gestion stock.exe
+D:\Documents\CESI\CUBE1\CUBE1-Negosud\Heavy client\Gestion stock\bin\Debug\net6.0-windows\Gestion stock.deps.json
+D:\Documents\CESI\CUBE1\CUBE1-Negosud\Heavy client\Gestion stock\bin\Debug\net6.0-windows\Gestion stock.runtimeconfig.json
+D:\Documents\CESI\CUBE1\CUBE1-Negosud\Heavy client\Gestion stock\bin\Debug\net6.0-windows\Gestion stock.dll
+D:\Documents\CESI\CUBE1\CUBE1-Negosud\Heavy client\Gestion stock\bin\Debug\net6.0-windows\Gestion stock.pdb
+D:\Documents\CESI\CUBE1\CUBE1-Negosud\Heavy client\Gestion stock\obj\Debug\net6.0-windows\Gestion stock.genruntimeconfig.cache
+D:\Documents\CESI\CUBE1\CUBE1-Negosud\Heavy client\Gestion stock\obj\Debug\net6.0-windows\ref\Gestion stock.dll

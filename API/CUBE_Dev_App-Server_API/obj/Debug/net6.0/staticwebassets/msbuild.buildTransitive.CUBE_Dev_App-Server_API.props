@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\CUBE_Dev_App-Server_API.props" />
+</Project>
