@@ -67,10 +67,10 @@ namespace CUBE_Dev_App_Server_API.Services
             return true;
         }
 
-        public static bool WebsiteLogin(int idClient, string password)
+        public static bool EmailNotAlreadyUsed(string email)
         {
-            string sql = $@"SELECT Password FROM Client
-                            WHERE IDClient = {idClient}";
+            string sql = $@"SELECT COUNT(*) EmailCount FROM Client
+                            WHERE Email = '{email}'";
 
             using MySqlDataReader? reader = DBConnection.ExecuteReader(sql);
 
@@ -81,13 +81,55 @@ namespace CUBE_Dev_App_Server_API.Services
 
             if (reader.Read())
             {
-                Client client = new Client
-                {
-                    Password = reader.GetString("Password")
-                };
+                string emailCount = reader.GetString("EmailCount");
 
-                if (client.Password == password)
+                if (!int.TryParse(emailCount, out int count))
                 {
+                    return false;
+                }
+
+                if (count == 0)
+                {
+                    return true;
+                }
+            }
+
+            return false;
+        }
+
+        public static bool WebsiteLogin(string email, string password, out int idClient)
+        {
+            idClient = -1;
+
+            string sql = $@"SELECT IDClient, Password FROM Client
+                            WHERE Email = '{email}'
+                            LIMIT 1";
+
+            using MySqlDataReader? reader = DBConnection.ExecuteReader(sql);
+
+            if (reader == null)
+            {
+                return false;
+            }
+
+            if (reader.Read())
+            {
+                if (reader.IsDBNull("Password") || reader.IsDBNull("IDClient"))
+                {
+                    return false;
+                }
+
+                string realPassword = reader.GetString("Password");
+
+                if (password == realPassword)
+                {
+                    string idClientString = reader.GetString("IDClient");
+
+                    if (!int.TryParse(idClientString, out idClient))
+                    {
+                        return false;
+                    }
+
                     return true;
                 }
             }

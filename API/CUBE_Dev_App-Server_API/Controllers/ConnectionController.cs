@@ -39,20 +39,15 @@ public class ConnectionController : ControllerBase
     }
 
     /// <summary>
-    /// Compares the incoming values with the id and password of a specified client
+    /// Compares the incoming values with the email and password of a specified client
     /// </summary>
+    /// <returns>The client ID</returns>
     [HttpGet("TryLoginWebsite")]
-    public IActionResult TryLoginWS(int id, string password)
+    public IActionResult TryLoginWS(string email, string password)
     {
-        if (!ClientService.Get(id, out Client_DTO? existingClient))
-            return StatusCode(500);
-
-        if (existingClient == null)
-            return NotFound();
-
-        if (!LoginService.WebsiteLogin(id, password))
+        if (!LoginService.WebsiteLogin(email, password, out int idClient))
             return StatusCode(400, "Incorrect password.");
 
-        return Ok();
+        return Ok(idClient);
     }
 }

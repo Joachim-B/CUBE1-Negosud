@@ -62,6 +62,9 @@ public class ClientController : ControllerBase
         if (string.IsNullOrEmpty(client.Password))
             return BadRequest("A password is required.");
 
+        if (!LoginService.EmailNotAlreadyUsed(client.Email))
+            return BadRequest("Mail address already used !");
+
         if (!ClientService.Add(client))
             return StatusCode(500);
 
@@ -107,7 +110,7 @@ public class ClientController : ControllerBase
         if (existingClient == null)
             return NotFound();
 
-        if (!LoginService.WebsiteLogin(id, password))
+        if (!LoginService.WebsiteLogin(existingClient.Email, password, out int _))
             return StatusCode(400, "Incorrect password.");
 
         if (!ClientService.Update(client))
