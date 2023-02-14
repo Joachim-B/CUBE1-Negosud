@@ -1,7 +1,4 @@
 window.onload = function() {
-
-    loadMenuEvent()
-    
     let json = `
     [
         {
@@ -49,4 +46,6 @@ window.onload = function() {
     const obj = JSON.parse(json)
 
     GenerateWine(obj)
+    
+    loadMenuEvent()
 };

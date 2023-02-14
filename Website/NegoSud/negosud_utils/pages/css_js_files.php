@@ -7,6 +7,7 @@
 
 
 
+<link rel="icon" href="../img/logo_vin_4-removebg-preview.jpg">
 <link rel="stylesheet" href="../negosud_utils/global.css" type="text/css" media="all" />
 <script src="../negosud_utils/global.js"></script>
 

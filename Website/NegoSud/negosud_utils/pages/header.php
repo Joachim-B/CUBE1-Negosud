@@ -6,30 +6,12 @@
         </div>  
   
         <div class="container_bouton_header">
-            <div>
+            <div id ="mon_compte_container">
               <img src="../img/logo_mon_compte.jpg" alt="" id="logo_compte">
-              <ul id="menu_mon_compte">
-
-              <?php
-                  if (session_status() != 2)
-                  {
-                      session_start();
-                  }
-                  if( isset( $_SESSION['connected'] ) == false ) {
-                      $_SESSION['connected'] = false;
-                  }
-
-                  if ($_SESSION['connected'] == false)
-                  {
-                      echo '
-                      <li><a href="../connexion/"><div>Se connecter</div></a></li>
-                      <li><a href="../inscription/"><div>S\'inscrire</div></a></li>';
-                  }
-                      
-                  else {
-                      echo '<li><a href="../inscription/"><div>Se déconnecter</div></a></li>';
-                  }
-                  ?>
+              <ul class="menu_mon_compte" id="menu_mon_compte_page">
+                <li><a href="../connexion/"><div>Se connecter</div></a></li>
+                <li><a href="../inscription/"><div>S'inscrire</div></a></li>
+                <li><a href="../inscription/"><div>Se déconnecter</div></a></li>
               </ul>
             </div>
             
@@ -40,7 +22,7 @@
             </div>              
         </div>
   </header>
-
+    
   <nav>
       <ul class="nav nav-justified">      
           <li class="nav-item">
@@ -53,7 +35,10 @@
             <a class="nav-link lien" href="../vins_blancs">Vins blancs</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link  lien" href="../armagniacs">Armagniacs</a>
+            <a class="nav-link  lien" href="../vins_digestifs">Digestifs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  lien" href="../vins_petillants">Pétillants</a>
           </li>
       </ul>
     </nav>

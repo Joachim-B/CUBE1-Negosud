@@ -1,26 +1,3 @@
-<?php
-session_start();
-
-if (isset($_SESSION["connected"]) == false)
-{
-    $_SESSION["connected"] = false;
-}
-
-if (isset($_GET["connect"]) == true)
-{
-    if ($_GET["connect"] == 3 && $_COOKIE["valid_connection"] == 1)
-    {
-        $_SESSION["connected"] = true;
-        $_COOKIE["valid_connection"] = 0;
-        header("Location: ../");
-    }
-    else
-    {
-        header("Location: ./");
-    }
-}
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 

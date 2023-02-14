@@ -5,10 +5,10 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Armagniacs</title>
+        <title>Vins digestifs</title>
         <?php require_once '../negosud_utils/pages/css_js_files.php'?>
 
-        <script src="./generate_armagniac.js"></script>
+        <script src="./generate_digestifs.js"></script>
     </head>
 
     <body>

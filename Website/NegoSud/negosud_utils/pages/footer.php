@@ -6,8 +6,8 @@
           <img src="../img/logo_vin_4-removebg-preview.jpg" alt="logo Negosud" title="" class="img-fluid image_footer" style="width:100px; height:100px;">
         </a>
         <div class="adresse">
-          <span>13 rue Claude Nougaro</span>
-          <span>29000</span>
+          <span>13 Rue Claude Nougaro</span>
+          <span>32000</span>
           <span>Auch</span>
         </div>
 		  </div>
@@ -19,7 +19,8 @@
             <a href="../vins_rouges"><li>Vins rouges</li></a>
             <a href="../vins_roses"><li>Vins rosés</li></a>
             <a href="../vins_blancs"><li>Vins blancs</li></a>
-            <a href="../armagniacs"><li>Armagniacs</li></a>
+            <a href="../vins_petillants"><li>Pétillants</li></a>
+            <a href="../vins_digestifs"><li>Digestifs</li></a>
           </ul>
         </div>
 		  </div>
@@ -41,7 +42,7 @@
             <a href="../connexion"><li>Se connecter</li></a>
             <a href="../panier_commandes"><li>Mon panier</li></a>                   
           </ul>
-        </div>      
+        </div>
 		  </div>
 
     </div>

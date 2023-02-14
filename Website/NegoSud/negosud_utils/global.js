@@ -1,12 +1,22 @@
-window.onload=function(){
-    loadMenuEvent()
-};
+window.onload=onWindowLoad
 
-function loadMenuEvent()
-{
-    var bouton = document.getElementById('logo_compte');
-    var nav = document.getElementById('menu_mon_compte');
-    bouton.onclick = function(e){
+function onWindowLoad() {
+    loadMenuEvent()
+    loadConnectionButtons()
+    loadApiUrl()
+}
+
+function loadMenuEvent() {
+    var bouton = document.getElementById('mon_compte_container');
+    var nav = document.getElementsByClassName('menu_mon_compte')[0];
+    bouton.onpointerenter = function(e){
+        if(nav.style.display=="block"){
+            nav.style.display="none";
+        }else{
+            nav.style.display="block";
+        }
+    };
+    bouton.onpointerleave = function(e){
         if(nav.style.display=="block"){
             nav.style.display="none";
         }else{
@@ -15,17 +25,42 @@ function loadMenuEvent()
     };
 }
 
+function loadConnectionButtons() {
+    let menuAccueil = document.getElementById("menu_mon_compte_accueil")
+    let menuPage = document.getElementById("menu_mon_compte_page")
+
+    if (window.sessionStorage.getItem("connected") == 1) {
+        if (menuAccueil != null)
+            menuAccueil.innerHTML = `<li><a href="./inscription/"><div>Se déconnecter</div></a></li>`
+        if (menuPage != null)
+            menuPage.innerHTML = `<li><a href="../inscription/"><div>Se déconnecter</div></a></li>`
+    }
+    else
+    {
+        if (menuAccueil != null)
+            menuAccueil.innerHTML = `<li><a href="./connexion/"><div>Se connecter</div></a></li>
+        <li><a href="./inscription/"><div>S'inscrire</div></a></li>`
+        if (menuPage != null)
+            menuPage.innerHTML = `<li><a href="../connexion/"><div>Se connecter</div></a></li>
+        <li><a href="../inscription/"><div>S'inscrire</div></a></li>`
+    }
+}
+
+function loadApiUrl() {
+    window.sessionStorage.setItem("apiUrl", "localhost:7017/")
+}
+
 function GenerateWine(obj)
 {
     let main = document.getElementsByTagName('main')[0]
 
     if (obj.length == 0)
     {
-        main.innerHTML = "Produits momentanément indisponible"
+        main.innerText = "Produits momentanément indisponibles"
     }
     else
     {
-        let contenu =  ""
+        let contenu = ""
 
         let indexVin = 0
 

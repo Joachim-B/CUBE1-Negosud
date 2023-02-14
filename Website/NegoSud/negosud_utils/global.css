@@ -23,7 +23,7 @@ header {
     gap:40px;
 }
 
-#menu_mon_compte {
+.menu_mon_compte {
     display: none;
     list-style: none;
     border: 1px solid #dbdbdb;
@@ -32,19 +32,19 @@ header {
     box-sizing: border-box;
     margin: 0;
     position: absolute;
-    margin-top: 5px;
+    background-color: #fdfcfc;
 }
 
-#menu_mon_compte li {
+.menu_mon_compte li {
     height: 40px;
     width: 100%;
 }
 
-#menu_mon_compte li:hover {
+.menu_mon_compte li:hover {
     background-color: #dbdbdb;
 }
 
-#menu_mon_compte li a {
+.menu_mon_compte li a {
     width: 100%;
     height: 100%;
     padding-left: 20px;
@@ -122,7 +122,7 @@ h3 {
     flex-direction: row;
     justify-content: space-around;
     background-color: #7A0000;
-    height: 220px;  
+    height: 250px;  
     margin-top: 25px!important;;
 }
 
