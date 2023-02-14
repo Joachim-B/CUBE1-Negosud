@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documents\\CESI\\CUBE1\\CUBE1-Negosud\\Heavy client\\Gestion stock\\Gestion stock.csproj",
+      "projectUniqueName": "C:\\Users\\Utilisateur\\Source\\Repos\\CUBE1-Negosud\\Heavy client\\Gestion stock\\Gestion stock.csproj",
       "projectName": "Gestion stock",
-      "projectPath": "D:\\Documents\\CESI\\CUBE1\\CUBE1-Negosud\\Heavy client\\Gestion stock\\Gestion stock.csproj",
+      "projectPath": "C:\\Users\\Utilisateur\\Source\\Repos\\CUBE1-Negosud\\Heavy client\\Gestion stock\\Gestion stock.csproj",
       "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
-      "outputPath": "D:\\Documents\\CESI\\CUBE1\\CUBE1-Negosud\\Heavy client\\Gestion stock\\obj\\",
+      "outputPath": "C:\\Users\\Utilisateur\\Source\\Repos\\CUBE1-Negosud\\Heavy client\\Gestion stock\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,7 +64,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
