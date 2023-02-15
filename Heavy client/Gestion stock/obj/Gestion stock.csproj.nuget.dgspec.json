@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Utilisateur\\Source\\Repos\\CUBE1-Negosud\\Heavy client\\Gestion stock\\Gestion stock.csproj": {}
+    "C:\\Users\\Utilisateur\\source\\repos\\CUBE1-Negosud\\Heavy client\\Gestion stock\\Gestion stock.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Utilisateur\\Source\\Repos\\CUBE1-Negosud\\Heavy client\\Gestion stock\\Gestion stock.csproj": {
+    "C:\\Users\\Utilisateur\\source\\repos\\CUBE1-Negosud\\Heavy client\\Gestion stock\\Gestion stock.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Utilisateur\\Source\\Repos\\CUBE1-Negosud\\Heavy client\\Gestion stock\\Gestion stock.csproj",
+        "projectUniqueName": "C:\\Users\\Utilisateur\\source\\repos\\CUBE1-Negosud\\Heavy client\\Gestion stock\\Gestion stock.csproj",
         "projectName": "Gestion stock",
-        "projectPath": "C:\\Users\\Utilisateur\\Source\\Repos\\CUBE1-Negosud\\Heavy client\\Gestion stock\\Gestion stock.csproj",
+        "projectPath": "C:\\Users\\Utilisateur\\source\\repos\\CUBE1-Negosud\\Heavy client\\Gestion stock\\Gestion stock.csproj",
         "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Utilisateur\\Source\\Repos\\CUBE1-Negosud\\Heavy client\\Gestion stock\\obj\\",
         "projectStyle": "PackageReference",

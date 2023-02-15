@@ -131,7 +131,7 @@ namespace Gestion_stock.Forms.FormNewItem
             }
 
             CustomMethods.DisplayInformation("Un nouveau fournisseur a été créé avec succès !");
-            ReloadPage(this, EventArgs.Empty);
+            ResetData();
         }
 
         private void ReloadPage(object sender, EventArgs e)
@@ -141,6 +141,11 @@ namespace Gestion_stock.Forms.FormNewItem
                 return;
             }
 
+            ResetData();
+        }
+
+        private void ResetData()
+        {
             txtCoutTransport.Text = "0";
             txtFournisseur.SelectedIndex = -1;
             txtIDFournisseur.Text = null;
