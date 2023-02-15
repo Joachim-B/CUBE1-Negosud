@@ -49,7 +49,7 @@ CREATE TABLE `article` (
   KEY `IDWineFamily` (`IDWineFamily`),
   CONSTRAINT `article_ibfk_1` FOREIGN KEY (`IDSupplier`) REFERENCES `supplier` (`IDSupplier`),
   CONSTRAINT `article_ibfk_2` FOREIGN KEY (`IDWineFamily`) REFERENCES `winefamily` (`IDWineFamily`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -58,7 +58,7 @@ CREATE TABLE `article` (
 
 LOCK TABLES `article` WRITE;
 /*!40000 ALTER TABLE `article` DISABLE KEYS */;
-INSERT INTO `article` VALUES (1,'TAR_FT01_2021','Classic',2021,8.00,40.00,25.50,20.00,'Chaque gorgée dégustée est une véritable explosion de fruits (d\'agrumes), accompagnée d\'une agréable fraîcheur qui fera appel à une nouvelle gorgée. Le conseil de nos sommeliers : avoir toujours une bouteille au frais... au cas où !','http://www.tariquet.com/images-vins/produits/normal/ugniblanc-g.jpg',20,0,20,0,10,50,6,1,2);
+INSERT INTO `article` VALUES (1,'TAR_FT01_2021','Domaine de Tariquet',2021,8.00,40.00,25.50,20.00,'Chaque gorgée dégustée est une véritable explosion de fruits (d\'agrumes), accompagnée d\'une agréable fraîcheur qui fera appel à une nouvelle gorgée. Le conseil de nos sommeliers : avoir toujours une bouteille au frais... au cas où !','http://www.tariquet.com/images-vins/produits/normal/ugniblanc-g.jpg',20,3,20,3,10,50,6,1,1),(2,'PEL_316_ROU','Domaine de Pellehaut',2019,6.00,40.00,20.00,20.00,'En bouche, un vin gourmand guidé par une trame tannique subtile et bien intégrée. Le fruit s\'exprime ; baies noires et mûres accompagnées de parfums poivrés.','https://www.comtessedubarry.com/media/catalog/product/p/h/phar08_2_6_1_2.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=430&width=430&canvas=430:430',25,3,25,3,5,20,6,2,1),(3,'PEL_204_ROS','Domaine de Pellehaut',2021,6.00,40.00,20.00,20.00,'D\'une belle oculeur dynamique, ce rosé offre un nez d\'agrumes et de fruits rouges. En bouche, le sucre ne faiblit pas et est porté par la fraîcheur du fruit. La framboise, la pêche et le pamplemousse enrobés de douceur, chatouillent le nez et caressent les papilles.. A consommer frais à tout moment!!','https://www.vinatis.com/66052-detail_default/l-ete-gascon-rose-2021-domaine-pellehaut.png',13,1,13,1,5,20,6,2,3),(4,'PEL_456_BLA','Domaine de Pellehaut',2020,7.00,44.00,22.00,20.00,'Dans une robe limpide et brillante, le vin offre un nez plein de senteurs sur des notes de fleurs, de fruits mûrs et de fruits confits. L\'attaque est franche pour une bouche souple et suave, très équilibrée et persistante. ','https://www.vinatis.com/74692-detail_default/harmonie-de-gascogne-blanc-2022-domaine-pellehaut.png',16,3,16,3,5,20,6,2,2),(5,'UBY_789_ROU','Uby n°7',2020,8.00,46.00,23.00,20.00,'\"La mûre et la myrtille sont les arômes qui mènent la danse. La bouche est souple, gourmande et équilibrée.\"','https://images.vivino.com/thumbs/cylQsTUqRp6TSmMq15Ja9w_pb_x600.png',6,7,6,7,5,20,6,5,1),(6,'UBY_635_BLA','Uby n°4',2021,7.00,32.00,18.00,20.00,'\"La mûre et la myrtille sont les arômes qui mènent la danse. La bouche est souple, gourmande et équilibrée.\"','https://www.vinatis.com/64274-detail_default/gros-et-petit-manseng-doux-n4-2021-domaine-uby.png',8,0,8,0,5,20,6,5,2),(7,'UBY_415_ROS','Uby n°6',2022,7.00,31.00,21.00,20.00,'Avec ses arômes de framboise et de fraise présents aussi bien au nez qu\'en bouche, ce rosé est plus que gourmand. C\'est un véritable délice de fraîcheur qui s\'abattra sur vos apéritifs et barbecues.','https://www.vinatis.com/76194-detail_default/uby-rose-n6-2022-domaine-uby.png',7,3,7,3,5,20,6,5,3),(8,'TAR_126_ROS','Domaine de Tariquet',2021,7.00,41.00,33.00,20.00,'Des arômes de framboises sauvages et de fleurs d\'été pour ce Tariquet rosé frais et généreux.\nUn très bon rosé donc, sans prétention mais avec un super rapport qualité/prix, et la capsule à vis le rend très pratique!','https://www.vinsolite.fr/1763-large_default/tariquet-rose.jpg',17,3,17,3,5,20,6,3,1),(9,'TAR_478_BLA','Domaine de Tariquet',2021,7.00,34.00,17.00,20.00,'Les Premières Grives ou le plaisir de se faire plaisir... ! Succès mondial, les \" Premières Grives \" du Domaine du Tariquet c\'est avant tout : \"une bouche gourmande, fruitée , vive et moelleuse.','https://www.vinatis.com/64729-detail_default/premieres-grives-2021-domaine-tariquet.png',17,1,17,1,5,20,6,1,2),(10,'FON_782_ROU','Maubet rosé',2021,6.00,36.00,18.00,20.00,'Gascon de souche, sa forte identité contribue à la personnalité des rouges, haute en couleur où se conjuguent noble astringence et fermeté tannique. Ses arômes sont ceux de fruits rouges (mûre, cassis) et de fruits confits','https://maisonfontan.com/resource/doc/vins/Incontournables/MaubetRose.jpg',9,7,9,7,5,20,6,4,3),(11,'FON_896_BLA','Maubet blanc sec',2021,6.00,36.00,18.00,20.00,'Cépage autochtone développé dans les années 80, période où les Côtes de Gascogne ont commencé à être connus. Réputé pour ses notes fraîches, relevées et toniques de fruits exotiques, fruits de la passion et agrumes.','https://maisonfontan.com/resource/doc/vins/Incontournables/MaubetBlancSec.jpg',8,3,8,3,5,20,6,4,2),(12,'FON_482_ROU','Maubet rouge',2021,6.00,27.00,13.00,20.00,'Gascon de souche, sa forte identité contribue à la personnalité des rouges, haute en couleur où se conjuguent noble astringence et fermeté tannique. Ses arômes sont ceux de fruits rouges (mûre, cassis) et de fruits confits.','https://maisonfontan.com/resource/doc/vins/Incontournables/MaubetRouge.jpg',9,0,9,0,5,20,6,4,1),(13,'JOY_693_ROU','Naturellement Joy',2020,6.00,37.00,16.00,20.00,'Les cuvées \"Naturellement Joÿ\" sont des vins équilibrés et harmonieux en conversion vers l\'agriculture biologique. Ce millésime 2020 offre une belle robe rouge avec un nez de bourgeon de cassis et de framboise.','https://www.vinatis.com/65161-detail_default/naturellement-joy-rouge-2020-domaine-de-joy.png',27,3,27,3,5,20,6,3,1),(14,'JOY_693_ROS','Saint André',2021,6.00,38.00,18.00,20.00,'Le Saint-André possède une belle robe jaune aux reflets dorés. Le nez est explosif sur des notes de fruits exotiques (ananas, mangue, litchi). En bouche, l\'équilibre entre le sucre et l\'acidité est parfait, rendant ce vin frais, aérien et gourmand.','https://www.vinatis.com/70140-detail_default/saint-andre-2021-domaine-de-joy.png',35,3,35,3,5,20,6,3,3),(15,'JOY_741_BLA','Saint André',2021,7.00,37.00,17.00,20.00,'Le Saint-André possède une belle robe jaune aux reflets dorés. Le nez est explosif sur des notes de fruits exotiques (ananas, mangue, litchi). En bouche, l\'équilibre entre le sucre et l\'acidité est parfait, rendant ce vin frais, aérien et gourmand. ','https://www.vinatis.com/75875-detail_default/saint-andre-2022-domaine-de-joy.png',13,7,13,7,5,20,6,3,2);
 /*!40000 ALTER TABLE `article` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -80,7 +80,7 @@ CREATE TABLE `client` (
   `Email` varchar(256) NOT NULL,
   `Password` varchar(256) NOT NULL,
   PRIMARY KEY (`IDClient`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -89,7 +89,7 @@ CREATE TABLE `client` (
 
 LOCK TABLES `client` WRITE;
 /*!40000 ALTER TABLE `client` DISABLE KEYS */;
-INSERT INTO `client` VALUES (1,'Michel','Dupont','45 Rue des Pommiers','75000','Paris','France','michel.dupont@gmail.com','1234'),(2,'Catherine','Dupont','45 Rue des Poiriers','29200','Brest','France','catherine.dupont@gmail.com','');
+INSERT INTO `client` VALUES (1,'Michel','Dupont','45 Rue des Pommiers','75000','Paris','France','michel.dupont@gmail.com','1234'),(2,'Catherine','Dupont','45 Rue des Poiriers','29200','Brest','France','catherine.dupont@gmail.com','catcat'),(3,'José','Bertrand','12 Rue de la Mairie','44560','Soudan','France','jose.bertrand@gmail.com','1234'),(4,'Jeanne','Petit','11 Rue de la Poste','07110','Joyeuse','France','jeanne.petit@gmail.com','jeanne');
 /*!40000 ALTER TABLE `client` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -264,7 +264,7 @@ CREATE TABLE `supplier` (
   `Country` varchar(256) NOT NULL,
   `Email` varchar(256) NOT NULL,
   PRIMARY KEY (`IDSupplier`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -273,7 +273,7 @@ CREATE TABLE `supplier` (
 
 LOCK TABLES `supplier` WRITE;
 /*!40000 ALTER TABLE `supplier` DISABLE KEYS */;
-INSERT INTO `supplier` VALUES (1,'Tariquet','Château du Tariquet','32800','Eauze','France','contact@domaine-tariquet.fr'),(2,'Pellehaut','Pellehaut','32250','Montréal','France','domaine-pellehot@gmail.com');
+INSERT INTO `supplier` VALUES (1,' Domaine de Tariquet','Château du Tariquet','32800','Eauze','France','contact@domaine-tariquet.fr'),(2,'Domaine de Pellehaut','Pellehaut','32250','Montréal','France','domaine-pellehaut@gmail.com'),(3,'Joy','Joy','32110','Panjas','France','domaine-joy@gmail.com'),(4,'Maison Fontan','Maubet','32800','Noulens','France','maison-fontan@yahoo.fr'),(5,'Uby','Uby','32150','Cazauban','France','vignoble-uby@gmail.com');
 /*!40000 ALTER TABLE `supplier` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -299,7 +299,7 @@ CREATE TABLE `suppliercommand` (
   CONSTRAINT `suppliercommand_ibfk_1` FOREIGN KEY (`IDSupplier`) REFERENCES `supplier` (`IDSupplier`),
   CONSTRAINT `suppliercommand_ibfk_2` FOREIGN KEY (`IDCommandStatus`) REFERENCES `commandstatus` (`IDCommandStatus`),
   CONSTRAINT `suppliercommand_ibfk_3` FOREIGN KEY (`IDCommandType`) REFERENCES `commandtype` (`IDCommandType`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -308,6 +308,7 @@ CREATE TABLE `suppliercommand` (
 
 LOCK TABLES `suppliercommand` WRITE;
 /*!40000 ALTER TABLE `suppliercommand` DISABLE KEYS */;
+INSERT INTO `suppliercommand` VALUES (1,0.00,'2023-02-14 11:15:21',96.00,3,2,1),(2,0.00,'2023-02-14 11:16:39',168.00,3,1,1);
 /*!40000 ALTER TABLE `suppliercommand` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -335,6 +336,7 @@ CREATE TABLE `suppliercommandlist` (
 
 LOCK TABLES `suppliercommandlist` WRITE;
 /*!40000 ALTER TABLE `suppliercommandlist` DISABLE KEYS */;
+INSERT INTO `suppliercommandlist` VALUES (13,1,6),(13,2,6),(14,2,4);
 /*!40000 ALTER TABLE `suppliercommandlist` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -372,4 +374,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-02-13 12:20:14
+-- Dump completed on 2023-02-15 10:39:24
